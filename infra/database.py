@@ -1,7 +1,7 @@
 from infra.exception import EngineNoneTypeException
 import secret
 
-from model import *
+from model import user, todo
 from sqlmodel import  SQLModel, create_engine, Session,select
 from sqlalchemy.future import Engine
 
